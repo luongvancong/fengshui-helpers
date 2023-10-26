@@ -23,11 +23,9 @@
   },
   "scripts": {
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prettier": "prettier --write --ignore-unknown"
   },
   "author": "",
-  "license": "ISC",
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
-  }
+  "license": "ISC"
 }
