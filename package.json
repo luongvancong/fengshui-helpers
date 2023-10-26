@@ -22,8 +22,12 @@
     "ts-node": "^10.9.1"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky install"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
 }
