@@ -3,4 +3,5 @@ export interface IDiaChiConfig {
   name: string
   yang: boolean
   wuxing: string
+  tangCan: string[]
 }

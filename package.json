@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Fengshui Helpers",
   "main": "index.js",
+  "types": "index.d.ts",
   "directories": {
     "test": "tests"
   },
